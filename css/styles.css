@@ -3,6 +3,11 @@ body {
   color: #434455;
   background-color: #fff;
 }
+main {
+  width: 1440px;
+  height: 3300px;
+  background: #fff;
+}
 ul {
   list-style-type: none;
   padding: 0;
@@ -24,10 +29,6 @@ a {
   color: #2e2f42;
 }
 
-.footer-logo .logo-part {
-  color: #f4f4fd;
-}
-
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -45,18 +46,61 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.page-footer {
-  background: #2e2f42;
-}
+
 button {
   cursor: pointer;
 }
 
 .hero-banner-button {
   font-weight: 500;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+}
+
+.type {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 .hero-banner {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.about-team {
+  width: 1128px;
+  height: 104px;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.about-list,
+.portfolio-list,
+.portfolio2-list,
+.portfolio2-list2 {
+  display: flex;
+}
+.about-item {
+  width: 264px;
+  height: 104px;
 }
 .about-text {
   font-weight: 400;
@@ -64,4 +108,85 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.portfolio-team {
+  width: 1440px;
+  height: 732px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.portfolio-item {
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+.team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-title-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+.portfolio2 {
+  width: 1128px;
+  height: 1000px;
+}
+.portfolio2-item {
+  background: #fff;
+  width: 360px;
+  height: 420px;
+}
+.portfolio2-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio2-title-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+.footer {
+  width: 1440px;
+  height: 312px;
+  background: #2e2f42;
+}
+
+.page-footer {
+  width: 115px;
+  height: 24px;
+}
+.page-footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
