@@ -54,7 +54,7 @@ a {
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .hero-banner {
   background: #2e2f42;
@@ -92,15 +92,24 @@ button[type="button"] {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.portfolio-team {
+  background-color: #f4f4fd;
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  background-color: #f4f4fd;
 }
+.portfolio-item {
+  background-color: #ffffff;
+}
+
 .team-title {
   font-weight: 500;
   font-size: 20px;
@@ -120,11 +129,13 @@ button[type="button"] {
 .portfolio2-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
+
 .portfolio2-title2 {
   font-weight: 500;
   font-size: 20px;
