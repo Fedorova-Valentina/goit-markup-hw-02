@@ -54,7 +54,7 @@ a {
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .hero-banner {
   background: #2e2f42;
@@ -126,7 +126,7 @@ button[type="button"] {
   text-align: center;
   color: #434455;
 }
-.portfolio-secondary-title {
+.card-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -136,14 +136,14 @@ button[type="button"] {
   text-transform: capitalize;
 }
 
-.portfolio-secondary-title-secondary {
+.card-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.portfolio-secondary-title-secondary-text {
+.card-title-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
