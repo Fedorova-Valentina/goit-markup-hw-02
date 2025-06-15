@@ -62,12 +62,13 @@ a {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 .hero-banner-button {
+  cursor: pointer;
   background: #4d5ae5;
 }
 button[type="button"] {
