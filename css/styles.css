@@ -54,8 +54,9 @@ a {
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
-  background-color: #404bbf;
+  color: #404bbf;
 }
+
 .hero-banner {
   background: #2e2f42;
 }
@@ -159,4 +160,10 @@ button[type="button"] {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  background-color: #404bbf;
 }
