@@ -155,7 +155,9 @@ button[type="button"] {
   color: #f4f4fd;
 }
 .nav-link:hover,
-.contacts-link:hover {
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 .hero-banner-button:hover,
