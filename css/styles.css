@@ -154,3 +154,11 @@ button[type="button"] {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+.nav-link:hover,
+.contacts-link:hover {
+  color: #404bbf;
+}
+.hero-banner-button:hover,
+.hero-banner-button:focus {
+  background-color: #404bbf;
+}
